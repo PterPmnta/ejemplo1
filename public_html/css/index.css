@@ -1,0 +1,168 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1/10/2015, 03:59:58 PM
+    Author     : PterPmnta
+*/
+
+.page-flexbox-wrapper{
+ display: flex;
+ min-height: 100vh;
+ flex-direction: column;
+}
+ 
+main{
+ flex: 1 1 auto;
+}
+  
+.mensaje-error{
+    color: #ee2200;
+    text-align: center;
+    font-size: 15px;
+}
+
+.caja-mensaje{
+    height: 16px;
+}
+
+
+.center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.margen-top{
+    position: relative;
+    top: 50px;
+}
+
+.formulario{
+    position: relative;
+    top: 20px;
+}
+
+.saludo {
+    position: relative;
+    top: 10px;
+    color: #263238;
+    font-size: 20px;
+}
+
+menu-top{    
+    top: 30px;
+}
+
+.text-perfil{
+    font-size: 15px;
+}
+
+.input-field input[type=text]:focus {
+     border-bottom: 1px solid #66bb6a;
+     box-shadow: 0 1px 0 0 #66bb6a;
+}
+
+.input-field input[type=text]:focus + label {
+     color: #66bb6a;
+}
+
+.input-field input[type=password]:focus {
+     border-bottom: 1px solid #66bb6a;
+     box-shadow: 0 1px 0 0 #66bb6a;
+}
+
+.input-field input[type=password]:focus + label {
+     color: #66bb6a;
+}
+
+.input-field .prefix.active {
+     color: #66bb6a;
+}
+
+
+.menu-text-color{
+    color: #263238;
+}
+
+.ancho-grila{
+    width: 14.285%;
+}
+
+.semana{
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.color-menu{
+    background-color: #dddddd;
+}
+
+.espacio-menu{
+    padding-bottom: 20px;
+}
+
+.espacio-superior{
+    padding-top: 30px;
+}
+
+.mensaje-error-tarea{
+    color: #ee2200;
+    text-align: center;
+    font-size: 15px;
+}
+
+.mensaje-success-tarea{
+    color: #66bb6a;
+    text-align: center;
+    font-size: 15px;
+}
+
+.div-mensaje{
+    height: 15px;
+}
+
+.loading-page{
+    background-color: #2A363B;
+}
+
+.loading-text{
+    color: #95C43A;
+    padding-top: 20px;
+}
+
+.circulo1{
+    background-color: #2A363B;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;   
+    position: relative;
+    top: 5px;
+    text-align: center;
+}
+
+.circulo2{
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #95C43A;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;  
+    position: relative;
+    top: 10px;
+    left: 2px;
+}
+
