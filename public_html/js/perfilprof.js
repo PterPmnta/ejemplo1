@@ -16,7 +16,7 @@ $(document).ready(function (){
     
     html = '<div>';
     html += '<nav>';
-    html += '<div class="nav-wrapper green">';
+    html += '<div class="nav-wrapper light-green">';
     html += '<a href="#" class="brand-logo center">Perfil</a>';
     html += '<a href="#" class="button-collapse" data-activates="slide-out">';
     html += '<i class="mdi-navigation-menu"></i>';
