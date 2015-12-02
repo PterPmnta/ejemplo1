@@ -14,7 +14,7 @@ $(document).ready(function (){
       var html;
       
       html = '<nav>';
-      html += '<div class="nav-wrapper green">';
+      html += '<div class="nav-wrapper light-green">';
       
       html += '<a href="#" class="brand-logo center">Unicesar</a>';
       
