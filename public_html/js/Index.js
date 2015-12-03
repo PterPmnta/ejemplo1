@@ -57,7 +57,7 @@ $(document).ready(function (){
         
         html += '<div class="row">';
         html += '<div class="col s8 offset-s2">';
-        html += '<div class="waves-block btn green darken-1" id="btn-login">Ingresar</div>';
+        html += '<div class="waves-block btn light-green" id="btn-login">Ingresar</div>';
         html += '</div>';
         html += '</div>';
         
